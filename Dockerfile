@@ -1,5 +1,5 @@
 # Compile stage
-FROM golang:1.17 AS build-env
+FROM golang:1.18 AS build-env
 
 # Build Delve
 RUN go install github.com/go-delve/delve/cmd/dlv@latest
